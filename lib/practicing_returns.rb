@@ -1,8 +1,8 @@
 require 'pry'
-binding.pry
+
 def hello(array)
   i = 0
-  while i < array.length
+  while i < array.lengthbinding.pry
     yield(array[i])
     i += 1
   end
